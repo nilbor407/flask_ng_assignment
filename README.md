@@ -14,13 +14,13 @@
     - It helps to handle next upcoming requests quickly.
 
   **Commands to run app.py**
-    - python -m venv env
-    - env\Scripts\activate
-    - pip install Flask
-    - python app.py
-
+    python -m venv env
+    env\Scripts\activate
+    pip install Flask
+    python app.py
     Send a POST request using Postman
         - curl -X POST http://127.0.0.1:5000/update_task -H "Content-Type: application/json" -d "{\"task_id\": 101}"
+    
     You will see a message immediately.
     After 5 seconds, the cmd will print a notification message.
     
